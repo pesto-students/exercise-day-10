@@ -1,5 +1,23 @@
-html {
+.body {
   font-family: sans-serif;
+  color:#FFA500;
+  background-color: red;
+  font-size: 35px;
+  padding: 15 px;
+  padding-top: 30 px;
+  text-shadow: 10px;
+  display: block;
+  height: 100px;
+  width: 300px;
+  border-radius: 15px;
+  text-shadow: #0000;
+  box-shadow:2px 2px #999;
+  text-shadow: 2px 2px #000;
 }
-
-/* Your CSS below here */
+.p{
+  text-align: center;
+  font-size: 30px;
+  padding-top: 20px;
+  justify-content: center;
+  vertical-align: middle;
+}
