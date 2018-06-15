@@ -1,0 +1,54 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+}
+
+.container-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 2em;
+  background-color: purple;
+  padding: 1.2em 0;
+}
+
+.m-5 {
+  margin: 5px
+}
+
+.blue {
+  background-color: aqua;
+}
+
+.p-10 {
+  padding: 10px;
+}
+
+.py-10 {
+  padding: 10px 0;
+}
+
+.box {
+  background-color: #fff;
+  flex: 1;
+  margin: 10px 4px;
+  text-align: center;
+  padding: 5px;
+}
+
+.my-20 {
+  margin: 20px 0;
+}
+
+.f-1 {
+  flex: 1;
+}
+
+.f-2 {
+  flex: 2;
+}
