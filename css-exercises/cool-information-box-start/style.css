@@ -1,5 +1,16 @@
-html {
+html 
+.center{
+  /* margin:auto;
   font-family: sans-serif;
+  color: red; */
+        width: 30em;
+        height: 10em;
+        margin: 5em auto;
+        background-color: red;
+        border: 0.2em solid black;
+        border-radius: 1.5em;
+        color: #ccc;
+        box-shadow: ;
 }
 
 /* Your CSS below here */

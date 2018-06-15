@@ -14,6 +14,8 @@ body {
 
 h1 {
   font-size: 4em;
+  background-color: aqua;
+  padding-top: 20%;
 }
 
 h2 {
@@ -36,6 +38,7 @@ header, footer {
 
 h1, footer p {
   margin: -70px;
+  background-color: aqua;
 }
 
 h1 {
@@ -54,6 +57,6 @@ main p, main li {
 }
 
 img {
-  float: right
+  float: right;
   margin: 1.2em 2em;
 }
