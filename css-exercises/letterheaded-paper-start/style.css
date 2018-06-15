@@ -39,3 +39,31 @@ h1 {
 }
 
 /* Your CSS below here */
+
+img.width-100 {
+  width: 100vw;
+}
+
+.pos-custom-div {
+  position: absolute;
+  top: -200px;
+  margin-left: 350px;
+}
+
+.pos-custom-caption {
+  position: relative;
+  top: -150px;
+  left: 0;
+}
+
+article {
+  background-color: #fff;
+  width: 100vw;
+  position: relative;
+}
+
+address {
+  position: absolute;
+  bottom: -200px;
+  margin-right: 150px
+}
