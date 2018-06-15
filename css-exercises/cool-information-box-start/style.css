@@ -3,3 +3,21 @@ html {
 }
 
 /* Your CSS below here */
+
+.cool-box {
+  margin: 0 auto;
+  background-color: #da3a2f;
+  display: inline-block;
+  border: 1px solid #9d2921;
+  border-radius: 11px;
+  padding: 20px;
+  text-align: center;
+  vertical-align: middle;
+  box-shadow: #000 2px 3px 7px 1px;
+  font-size: 20px;
+}
+
+.red-text {
+  text-shadow: #000 1px 1px 1px;
+  color: #e93f34;
+}
