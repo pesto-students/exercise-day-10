@@ -1,5 +1,17 @@
 html {
   font-family: sans-serif;
 }
+p {
+  border-width: 6px, 6px;
+  border-style: solid;
+  border-radius: 60px;
+  padding: 10%;
+  font-size: 7em;
+  text-align: center;
+  text-shadow: 3px 2px grey;
+  color: darkred;
+  background: linear-gradient(transparent ,red);
+  
+}
 
 /* Your CSS below here */
