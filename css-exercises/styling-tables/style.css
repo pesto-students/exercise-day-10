@@ -58,6 +58,7 @@ tfoot th {
 thead, tfoot {
   background: url(leopardskin.jpg);
   color: white;
+  text-transform: uppercase;
 }
 
 thead th, tfoot th, tfoot td {
