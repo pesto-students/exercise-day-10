@@ -1,0 +1,16 @@
+.loader {
+    border-width: 3em;
+    border-style: solid;
+    border-color: grey;
+    border-top-color: black;
+    width: 20em;
+    border-radius: 50%;
+    height: 20em;
+    animation: loading 3s infinite linear;
+}
+
+@keyframes loading {
+    100% {
+        transform: rotate(360deg);
+    }
+}
