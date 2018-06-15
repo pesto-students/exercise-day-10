@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Flexbox</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+  <script src="main.js"></script> -->
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+    }
+
+    .container {
+      display: flex;
+    }
+
+    .container-center {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+      font-size: 2em;
+      background-color: purple;
+      padding: 1.2em 0;
+    }
+
+    .m-5 {
+      margin: 5px
+    }
+
+    .blue {
+      background-color: aqua;
+    }
+
+    .p-10 {
+      padding: 10px;
+    }
+
+    .py-10 {
+      padding: 10px 0;
+    }
+
+    .box {
+      background-color: #fff;
+      flex: 1;
+      margin: 10px 4px;
+      text-align: center;
+      padding: 5px;
+    }
+
+    .my-20 {
+      margin: 20px 0;
+    }
+
+    .f-1 {
+      flex: 1;
+    }
+
+    .f-2 {
+      flex: 2;
+    }
+  </style>
+</head>
+<body>
+  <div class="container-center">
+    Complete Flexbox Example
+  </div>
+  <div class="container">
+    <div class="m-5 p-10 blue f-1">
+      <h2 class="py-10">First article</h2>
+
+      <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.</p>
+    </div>
+    <div class="m-5 p-10 blue f-1">
+      <h2 class="py-10">Second article</h2>
+      <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.</p>
+    </div>
+    <div class="m-5 p-10 blue f-2">
+      <div>
+        <div class="container">
+          <div class="box">Smile</div>
+          <div class="box">Laugh</div>
+          <div class="box">Wink</div>
+          <div class="box">Shrug</div>
+          <div class="box">Blush</div>
+        </div>
+        <p class="my-20">
+            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.
+        </p>
+        <p class="my-20">
+            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.
+        </p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
