@@ -1,0 +1,28 @@
+.container{
+    position: relative;
+    color: black;
+}
+.center{
+    position: absolute;
+    top: 35%;
+    left:18%;
+    transform: translate(-50%,-50%);
+    font-size: 45px;
+
+}
+.container2{
+    position: relative;
+    text-align: center;
+    color: black;
+}
+.center2{
+    position: absolute;
+    top: 35%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    font-size: 45px;
+    background-image: url(colorful-heart.png);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    color: aqua;
+}
