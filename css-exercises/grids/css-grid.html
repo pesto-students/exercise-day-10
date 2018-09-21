@@ -4,7 +4,26 @@
     <meta charset="utf-8">
     <title>CSS grids example</title>
     <style>
-
+      .wrapper {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
+      }
+      .col {
+        background-color: antiquewhite;
+        border: 4px solid white;
+        margin-bottom: 10px;
+        min-height: 40px;
+        grid-column-end: span 1;
+      }
+      .col.span6 {
+        grid-column-end: span 6;
+      }
+      .col.span3 {
+        grid-column-end: span 3;
+      }
+      .col.span2 {
+        grid-column-end: span 2;
+      }
     </style>
   </head>
 
