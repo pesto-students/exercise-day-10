@@ -39,3 +39,31 @@ h1 {
 }
 
 /* Your CSS below here */
+article {
+  background-color: white;
+}
+
+article h1 {
+  z-index: 2;
+}
+
+#logo {
+  position: relative;
+  top: 65px;
+  left: 75px;
+}
+
+img.stretch-width {
+  position: absolute;
+  width: 100%;
+}
+
+img.stretch-width.top {
+  left: 0;
+  top: 0;
+}
+
+img.stretch-width.bottom {
+  left: 0;
+  bottom: 0;
+}
