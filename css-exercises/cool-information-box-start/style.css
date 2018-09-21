@@ -3,3 +3,14 @@ html {
 }
 
 /* Your CSS below here */
+p {
+  display: inline-block;
+  padding: 30px;
+  font-size: 30px;
+  border-radius: 10px;
+  background-color: brown;
+  color: red;
+  text-align: center;
+  text-shadow: 3px 3px black;
+  box-shadow: 2px 2px 2px 3px grey;
+}

@@ -29,18 +29,18 @@ pli {
 /* header and footer */
 
 header, footer {
-  background-colour: teal;
-  height: 10em;
-  padding: 2em;
+  background-color: teal;
+  /* height: 10em; */
+  padding: 1em;
 }
 
 h1, footer p {
-  margin: -70px;
+  /* margin: -70px; */
 }
 
 h1 {
   text-align: center;
-  padding: 0.5em 0;
+  /* padding: 0.5em 0; */
 }
 
 /* main content */
@@ -54,6 +54,11 @@ main p, main li {
 }
 
 img {
-  float: right
-  margin: 1.2em 2em;
+  float: right;
+  width: 150px;
+  margin: 0 3em;
+}
+
+.img-container {
+  float: left;
 }
