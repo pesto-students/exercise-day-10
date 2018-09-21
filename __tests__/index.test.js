@@ -27,7 +27,7 @@ describe('levenshteinDistance', () => {
     expect(levenshteinDistance('football', 'foot')).toBe(4);
 
     // Needs to substitute the first 5 chars: INTEN by EXECU
-    expect(levenshteinDistance('intention', 'execution')).toBe(5);
+    expect(levenshteinDistance('intention', 'execution')).toBe(6);
   });
 });
 
