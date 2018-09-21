@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>CSS grids example</title>
+  <style>
+    .container {
+      width: 200px;
+      height: 200px;
+      position: relative;
+    }
+
+    .container img {
+      max-height: 100%;
+    }
+
+    .container span {
+      position: absolute;
+      top: 40%;
+      left: 0;
+      right: 0;
+      text-align: center;
+      font-size: 40px;
+      font-weight: 800;
+      font-family: 'Times New Roman', Times, serif;
+    }
+
+    .text-container {
+      width: 400px;
+      height: 400px;
+      font-size: 100px;
+      color: red;
+      -webkit-text-fill-color: transparent;
+      background: -webkit-linear-gradient(transparent, transparent),
+        url('colorful-heart.png') repeat;
+      background: -o-linear-gradient(transparent, transparent);
+      -webkit-background-clip: text;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <img src="colorful-heart.png" alt="colourful-heart">
+    <span>WOW</span>
+  </div>
+
+  <div class="text-container">
+    <!-- <img src="colorful-heart.png" alt="colourful-heart">
+      <span>WOW</span> -->
+    WOW
+  </div>
+</body>
+
+</html>
