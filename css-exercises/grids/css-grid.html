@@ -4,7 +4,25 @@
     <meta charset="utf-8">
     <title>CSS grids example</title>
     <style>
+      .wrapper {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-gap: 40px;
+      }
+      .col {
+        background: pink
+      }
+       .span6 {
+        grid-column-start: 1;
 
+      }
+      .span3 {
+        grid-column-start: span 2;
+      }
+      .span2 {
+        grid-column-start: 8;
+        grid-column-end: 10;
+      }
     </style>
   </head>
 
@@ -17,7 +35,7 @@
       <div class="col">5</div>
       <div class="col">6</div>
       <div class="col">7</div>
-      <div class="col">8</div>
+      <div class="col">8</div> 
       <div class="col">9</div>
       <div class="col">10</div>
       <div class="col">11</div>
