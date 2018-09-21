@@ -24,18 +24,19 @@ pli {
   font-size: 1.7em;
 }
 
+
 /*+++ more specific section styles +++*/
 
 /* header and footer */
 
 header, footer {
-  background-colour: teal;
+  background: teal;
   height: 10em;
   padding: 2em;
 }
 
 h1, footer p {
-  margin: -70px;
+  margin: 0px;
 }
 
 h1 {

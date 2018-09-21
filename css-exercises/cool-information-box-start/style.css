@@ -1,5 +1,15 @@
 html {
   font-family: sans-serif;
 }
-
+p {
+  border: 3px solid #700404;
+  border-radius: 9px;
+  padding: 40px;
+  background-color: #ca1111;
+  color: #ff0010;
+  width: 30%;
+  text-align: center;
+  font-size: 2em;
+  text-shadow:2px 2px #7c0606;
+}
 /* Your CSS below here */
