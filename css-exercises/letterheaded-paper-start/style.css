@@ -16,6 +16,7 @@ article {
   height: 297mm;
   margin: 20px auto;
   position: relative;
+  background-color: white;
 }
 
 address {
@@ -36,6 +37,15 @@ h1 {
   padding: 44px 0;
   color: white;
   text-shadow: 1px 1px 1px black;
+  background-image: url(logo.png);
 }
 
 /* Your CSS below here */
+.top-image {
+  width: 100%;
+}
+
+.bottom-image {
+  position: absolute;
+  bottom: 0px;
+}
