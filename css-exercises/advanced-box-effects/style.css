@@ -1,0 +1,28 @@
+body {
+    font-family: Impact;
+    font-size: 1.5em;
+}
+
+#container {
+    display: flex;
+}
+
+.box {
+    background: center/80% no-repeat url('./colorful-heart.png');
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 200px;
+    height: 200px;
+}
+
+.box:first-child {
+    margin-right: 50px;
+}
+
+div#two {
+    background-clip: text;
+    color: transparent;
+}
