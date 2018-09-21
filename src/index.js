@@ -25,7 +25,13 @@ function levenshteinDistance(a, b) {
 */
 
 function cartesianProduct(setA, setB) {
-  return setA + setB;
+  if (!Array.isArray(setA) || !Array.isArray(setB)) return null;
+
+  let ret = [];
+  setA.forEach((elemA) => {
+    ret = ret.concat(setB.map(elemB => [elemA, elemB]));
+  });
+  return ret;
 }
 
 module.exports = {
