@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    .main {
+      display: grid;
+      grid-template-rows: 2;
+      grid-gap: 10px;
+    }
+    .header {
+      grid-row: 1;
+      background: rgb(146, 68, 209);
+      text-align: center;
+    }
+    .columns {
+      grid-row: 2;
+      display: grid;
+      grid-template-columns: 3;
+      grid-gap: 20px;
+    }
+    .col1 {
+      grid-column:1;
+      padding: 20px;
+      background: rgb(0, 169, 199);
+    }
+    .col2 {
+      grid-column: 2;
+      padding: 20px;
+      background: rgb(0, 169, 199);
+    }
+    .col3 {
+      grid-column: 3;
+      padding: 20px;
+      background: rgb(0, 169, 199);
+    }
+    button {
+      width: 70px;
+      height: 30px;
+    }
+  </style>
+</head>
+<body>
+  <div class="main">
+    <div class="header">
+      <h1>Complete flexbox tutorial</h1>
+    </div>
+    <div class="columns">
+      <div class="col1">
+        <h2>First article</h2>
+        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text</p>
+      </div>
+      <div class="col2">
+          <h2>Second article</h2>
+          <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text</p>
+      </div>
+      <div class="col3">
+        <section>
+          <button>Smile</button>
+          <button>Laugh</button>
+          <button>Wink</button>
+          <button>Shrug</button>
+          <button>Blush</button>
+          <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text</p>
+        </section>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
