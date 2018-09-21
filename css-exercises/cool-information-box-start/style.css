@@ -3,3 +3,28 @@ html {
 }
 
 /* Your CSS below here */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  background-color: red;
+
+  border: 3px solid rgb(200, 0, 0);
+  border-radius: 10px;
+  box-shadow: 3px 3px 5px black, inset 2px 2px 5px white, inset -2px -2px 5px black;
+
+  color: red;
+  text-shadow: 2px 2px 1px black;
+
+  margin-top: 20px;
+  margin-left: 20px;
+  padding-top: 20px;
+
+  text-align: center;
+
+  height: 70px;
+  width: 200px;
+}
