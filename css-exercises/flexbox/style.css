@@ -1,0 +1,28 @@
+header{
+    display: flex;
+    justify-content: center;
+    background-color:#4B0082;
+    color: white;
+}
+.row{
+    display: flex;
+    padding: 10px;
+    justify-content: flex-start;
+}
+.views {
+    background-color: aqua;
+}
+
+
+.flex-item {
+    background: aqua;
+    padding: 5px;
+    margin: 5px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.item-container {
+    display: flex;
+    justify-content: space-between;
+}
